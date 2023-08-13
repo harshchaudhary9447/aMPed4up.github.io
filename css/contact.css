@@ -1,0 +1,31 @@
+.contact-content{
+    font-family: var(--font1);
+    height: 80vh;
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    position: relative;
+}
+
+.contact-content::after{
+    content: "";
+    background-color: rgb(37, 116, 219);
+    background-size:cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.5;
+    border-radius: 10px;
+    top :0;
+    z-index: -1;
+}
+.contact-form{
+    margin-top: 20px;
+    margin-left: 170px;
+}
+.form-box input,textarea{
+    width: 44vw;
+    padding: 10px 6px;
+    margin: 7px 0px;
+
+ }
